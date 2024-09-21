@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+  .auth{
+    background: url("https://img.freepik.com/premium-photo/purple-pink-twilight-mesmerizing-pink-sky-with-white-clouds-textured-patterns_1000124-95437.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+  .custom-input {
+    outline: none !important;
+  }
+  
+  .custom-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+ 
+}
